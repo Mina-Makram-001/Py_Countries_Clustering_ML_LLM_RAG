@@ -1,1 +1,1 @@
-streamlit run "d:/Projects/2B_Data_Science_Portfolio/Task_4_(Train_3_Unsupervised_ML_Models)/app.py"
+streamlit run "D:\Projects\MY_Portifolio\Py_Countries_Clustering_ML_LLM_RAG\app.py"
