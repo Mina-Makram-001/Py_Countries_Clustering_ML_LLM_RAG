@@ -554,10 +554,7 @@ The Streamlit app (`app.py`) combines the saved ML pipeline with a RAG assistant
 
 ### User Interface
 
-<!-- Replace the path below with your own screenshot -->
-![App UI](assets/app_ui.png)
-
-### Demo Video
+![App UI](output/app_ui.png)
 
 
 ### How to Use
