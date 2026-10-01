@@ -18,7 +18,7 @@ Raw indicators are cleaned, transformed, and merged into composite indices, then
 * **Null Analysis:** Missing values by country, indicator, and year → drop, interpolate, or impute.
 * **Distribution Analysis:** Histograms and boxplots before/after log transformation.
 * **Correlation Analysis:** Heatmap used to justify the composite indices.
-* **Model Selection:** Elbow method and silhouette score for `k = 2…8`.
+* **Model Selection:** Elbow method and silhouette score for `k = 2 to 8`.
 * **Dimensionality Reduction + Clustering:** PCA (2 components, **46.46%** variance) and K-Means with `k = 3` → *Silhouette = 0.492, Davies-Bouldin = 0.745, Calinski-Harabasz = 246.06*.
 
 
@@ -167,7 +167,7 @@ nulls   65   61   57   63   57   56   54   63   67   72   76   74
 
 ### Results
 
-![Missing values by year](output/Total_Missing_Values_by_Year__2010_2025_.png)
+![Missing values by year](output/Total_Missing_Values_by_Year.png)
 
 
 ### Insights
@@ -202,7 +202,7 @@ plt.show()
 
 ### Results
 
-![Trade openness](output/Trade_Openness_Ratio__.png)
+![Trade openness](output/Trade_Openness_Ratio.png)
 
 
 ### Insights
@@ -559,8 +559,6 @@ The Streamlit app (`app.py`) combines the saved ML pipeline with a RAG assistant
 
 ### Demo Video
 
-<!-- Replace the link below with your own video (YouTube / Drive / assets/demo.mp4) -->
-[▶ Watch how to use the app](assets/demo.mp4)
 
 ### How to Use
 
