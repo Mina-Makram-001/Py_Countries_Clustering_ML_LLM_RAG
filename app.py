@@ -71,7 +71,7 @@ Answer:
     prompt = ChatPromptTemplate.from_template(prompt_template)
     
     llm = ChatGoogleGenerativeAI(
-        model="gemini-3.6-flash",
+        model="gemini-3.5-flash-lite",
         google_api_key=os.getenv("GEMINI_API_KEY"),
         temperature=0.2
     )
