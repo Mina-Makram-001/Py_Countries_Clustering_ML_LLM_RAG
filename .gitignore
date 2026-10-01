@@ -3,3 +3,7 @@
 
 *.xlsx
 **/*.xlsx
+
+chroma_db/
+
+docs/
